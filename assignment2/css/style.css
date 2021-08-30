@@ -44,6 +44,7 @@ img.ball {
 p {
     clear: right;
     width: 90%;
+    margin: auto;
 }
 
 #num_001 {
