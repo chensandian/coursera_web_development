@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 175%;
+}
+
+section {
+    border: 1px solid black;
+    background-color: gray;
+    height: 350px;
+    overflow: auto;
+}
+
+h2 {
+    float: right;
+    border: 1px solid black;
+    padding: 5px 20px 5px 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+img.mon {
+    clear: right;
+    float: right;
+    width: 100px;
+    height: auto;
+    margin-right: 50px;
+}
+
+img.ball {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+p {
+    clear: right;
+    width: 90%;
+}
+
+#num_001 {
+    background-color: rgb(55, 138, 34);
+}
+
+#num_004 {
+    background-color: rgb(231, 104, 20);
+}
+
+#num_007 {
+    background-color: rgb(78, 115, 124);
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        padding: 15px;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+        padding: 15px;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        padding: 15px;        
+        width: 100%;
+    }
+
+}
